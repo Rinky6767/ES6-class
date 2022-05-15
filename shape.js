@@ -1,8 +1,12 @@
-class Shape{
+export class Shape{
   
   constructor(color){
     this.color= color;
   }
-  drawShape(){}
-  calculateArea(){}
+  drawShape(){
+    return this.color;
+  }
+  calculateArea(l,b){
+    return l* b;
+   }
 }
